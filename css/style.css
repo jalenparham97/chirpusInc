@@ -26,7 +26,7 @@ li {
 
 .nav-item {
   text-decoration: none;
-  color: #000;
+  color: #86868a;
   margin-left: 10px;
 }
 
@@ -44,7 +44,7 @@ li {
 section {
   width: 80%;
   margin: 15% auto;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 div {
@@ -56,7 +56,38 @@ div {
   float: left;
 }
 
-p {
-  border-left: 1px solid #69696a;
-  padding-left: 12px;
+.column-2 {
+  float: right;
+  position: relative;
 }
+
+p {
+  border-left: 1px solid #86868a;
+  padding-left: 12px;
+  color: #86868a;
+}
+
+.circle-1 {
+  width: 200px;
+  height: 200px;
+  background: rgba(247, 136, 167, 0.6);
+  border-radius: 100px;
+  position: absolute;
+}
+
+.circle-2 {
+  width: 100px;
+  height: 100px;
+  background: rgba(207, 130, 213, 0.6);
+  border-radius: 100px;
+  position: absolute;
+}
+
+.circle-3 {
+  width: 150px;
+  height: 150px;
+  background: rgba(247, 136, 167, 0.6);
+  border-radius: 100px;
+  position: absolute;
+}
+
