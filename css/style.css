@@ -40,3 +40,23 @@ li {
 .button-text {
   color: #fff;
 }
+
+section {
+  width: 80%;
+  margin: 15% auto;
+  overflow: hidden;
+}
+
+div {
+  width: 45%;
+  margin: 8px;
+}
+
+.column-1 {
+  float: left;
+}
+
+p {
+  border-left: 1px solid #69696a;
+  padding-left: 12px;
+}
